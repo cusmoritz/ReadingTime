@@ -23,6 +23,19 @@ header button {
     margin: 5 px;
 }
 
+main {
+    grid-area: main;
+}
+
+main table {
+    border: dashed 2 px;
+}
+
+main table td {
+    height: 50 px;
+    width: 50 px;
+}
+
 sidebar {
     grid-area: left;
 }
