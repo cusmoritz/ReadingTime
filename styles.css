@@ -1,0 +1,38 @@
+/* Init... */
+* { background-color: #FDB44E;
+    grid-template-areas: 
+    "header header header header"
+    "left main main right"
+    "left main main right"
+    "footer footer footer footer";
+}
+
+header {
+    font-family: 'Press Start 2P', cursive;
+    grid-area: header;
+    text-align: center;
+}
+
+header p {
+    font-size: small;
+}
+
+header button {
+    float: right;
+    padding: 5 px;
+    margin: 5 px;
+}
+
+sidebar {
+    grid-area: left;
+}
+
+footer {
+    font-family: 'Press Start 2P', cursive;
+    font-size: x-small;
+    text-align: center;
+}
+
+footer img {
+    float: right;
+}
